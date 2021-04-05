@@ -28,16 +28,24 @@ while (count<5):
     count=count+1
     break
 print('Done')
-exit
 
 
+print('do some research')
+print('this is a check3')
 
-Faccheck=0
-N=5
 count=1
-while (count<=N):
-    Faccheck=count*(count+1)
-print(Faccheck)
+N=4
+faccheck=1
+for count in range (1,N+1):
+    faccheck= faccheck*count
+print (faccheck)
+
+
+
+
+
+
+
 
 
 
